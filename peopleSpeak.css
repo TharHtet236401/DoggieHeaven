@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.speak{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    padding-top: 0rem;
+    flex-wrap: wrap;
+}
+
+.speak > div{
+    min-width: 45%;
+    margin-bottom: 3rem;;
+}
+
+.endText{
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#BB2D3B;
+}
+
+.peopleSpeak{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    font-size: 3rem;
+}

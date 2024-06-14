@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.contactBarPhoneLeft , .contactBarPhoneMiddle{
+    display: flex;
+    align-items: center;
+   
+}
+
+.contactBarPhoneLeft{
+    margin-right: 2rem;
+}
+
+.contactBarPhoneMiddle{
+    margin-right:2rem
+}
+
+.contactBarPhone{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactBarphoneRight > a{
+    font-size: 1.5rem;
+    color:black;
+}
+
+.contactBar{
+    display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+    flex-wrap: wrap;
+    margin-top:0.5rem;
+    
+}
+
+.contactBarButton > button {
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-padding-y: 0.4rem;
+    font-size:0.9rem;
+    background-color:black;
+    border:none;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+      display: block;    }
+
+.link > a{
+    color:black;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: white!important ;
+}
+
+.email{
+    margin-left:0.5rem;
+}
+
+.webLogo{
+    margin-right:6rem;
+}
+
+.dog_1{
+    object-fit: cover;
+    object-position: left;
+}
+
+.main{
+    position: relative;
+}
+.above{
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align: left;
+}
+
+.caption{
+    margin-top:100px;
+}
+
+.header{
+    font-size:2.3rem;
+    color:white;
+    font-weight: bolder;
+    margin-left:0.8rem;
+}
+
+.header2{
+    color:white;
+    font-size: 2.3rem;
+    margin-left:3rem;
+}
+.description{
+    color:white;
+    font-size: 1.2rem;
+    margin-left:1.3rem;
+    margin-top:1rem;
+    font-weight: 600;
+}
+
+.description2{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left:6rem;
+}
+
+.learnMore{
+    margin-left:20rem;
+}
+
+.learnMore2{
+    margin-left:10rem;
+}
+
+.caption > button{
+--bs-btn-padding-x: 3.7rem;
+  --bs-btn-padding-y: 0.8rem;
+}
+
+.parent{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin:0 auto;   
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secChild{
+    width: 1000px;
+    height: 4215px;
+    background-color: #E4E4E4;
+   
+}
+
+.secChild2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.thirdChild{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin-left: 30px;
+    height: 550px;
+}
+
+.thirdChild2{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin-left: 68px;
+    height: 550px;
+}
+
+.fourthChild{
+    background-color: black;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 100px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+button:hover {
+    background-color: #E4E4E4;; /* change to your desired color */
+    
+  }

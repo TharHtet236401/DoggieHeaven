@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.contactMain{
+    display: flex;
+    justify-content: space-between;
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top:4rem;
+    
+}
+
+.contactHeader{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.contactLeft{
+    /* background-color: red;; */
+    width: 40%;
+    background-color: #f4f4f4;
+    margin:0 3rem;
+    padding: 1rem 3rem;
+    padding-top: 3rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    border-radius: 1rem;
+}
+
+.contactRight{
+    /* background-color: blue; */
+    
+    padding: 1rem 3rem;
+    padding-top: 3rem;
+    padding-left:2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactHeading{
+    border-bottom: 3px dotted red;;
+}
+
+.contactHeading{
+    font-size: 1.5rem;
+    margin-left:2rem;
+    margin-right:5rem;
+    font-weight: bold;
+}
+
+.contactAbout{
+    display: flex;
+   margin-left:2rem;
+   align-items: baseline;
+}
+
+.contactAboutIcon{
+    margin-right:1rem;
+    
+}
+
+.contactAboutList{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactAboutList > p{
+    margin-bottom: 0.2rem;
+}
+
+.listInfo{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.contactPhoto{
+    margin-left:2rem;
+    width: 70%;
+    border-radius: 1rem;
+    margin-top:4rem;
+    margin-bottom: 4rem;;
+}
+
+.contactPhone{
+    margin-bottom: 2rem;
+}
+
+.contactEmail{
+    margin-bottom: rem;
+    
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm > input{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    padding: 0.5rem;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+.contactSubmit{
+  margin:1rem 14rem;
+  padding: 0.5rem;
+}
+
+.hello{
+    margin-left: 0rem;
+}
+

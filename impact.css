@@ -1,0 +1,49 @@
+
+
+.impactPage{
+  
+    background-image: url('/images/edited_background.png'); /* Specify the URL of your image */
+    background-size: cover; /* Cover the entire viewport */
+  /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    /* Set the height to the full viewport height */
+    display: flex;
+    opacity: 1;
+    mix-blend-mode: darken;
+   
+    color: #ffffff; /* Set text color to white, adjust as needed */
+}
+
+.impactText{
+    color:white;
+    display: flex;
+    
+    flex-direction: column;
+    width: 50%;
+    padding-left: 5rem;
+    
+}
+
+.impactTitle{
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: bolder;
+
+}
+
+.impactDescription{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    mix-blend-mode: difference;
+}
+
+.impactList{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+    width: 70%;
+    mix-blend-mode: difference;
+}

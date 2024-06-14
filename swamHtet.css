@@ -1,0 +1,492 @@
+.s-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 500px; /* Set the height of your banner */
+    background: url('/swam/p2.jpg') center/cover; /* Set the image URL */
+    position: relative;
+    overflow: hidden;
+    opacity: 80%;
+ 
+}
+
+.banner2 {
+    width: 100%;
+    height: 500px; /* Set the height of your banner */
+    background: url('/swam/dog2.jpg') center/cover; /* Set the image URL */
+    position: relative;
+    overflow: hidden;
+    opacity: 80%;
+    
+}
+
+.banner3 {
+    width: 100%;
+    height: 500px; /* Set the height of your banner */
+    background: url('/images/dog_5.jpg') center/cover; /* Set the image URL */
+    position: relative;
+    overflow: hidden;
+    opacity: 80%;
+    
+}
+
+.banner4 {
+    width: 100%;
+    height: 500px; /* Set the height of your banner */
+    background: url('/swam/l1.jpg') center/cover; /* Set the image URL */
+    position: relative;
+    overflow: hidden;
+    opacity: 80%;
+   
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.s-h1 {
+    margin: 0;
+    font-size: 50px;
+    color:#BB2D3B;
+    font-weight: bolder;
+    mix-blend-mode: difference;
+    
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.s-h2 {
+    font-size: 24px;
+    margin: 0; /* Remove default margin for h2 */
+    padding-top: 20px;
+}
+
+.points > li{
+    margin: 1rem;
+}
+
+.red-text {
+    color: #B11226;
+    border-bottom: 4px dotted #B11226; 
+    display: inline-block;
+    margin-top:1rem;
+    font-weight: bold;
+}
+
+.s-h4 {
+    font-size: 40px;
+    padding-top: 20px;
+    color: #B11226;
+    margin: 100px;
+}
+
+.s-p {
+    font-size: 16px;
+    padding-top: 1rem;
+    line-height: 1.7rem;
+}
+
+.image-content img {
+    max-width: 80%;
+    height: auto;
+    margin: 120px auto;
+    border-radius: 30px;
+}
+
+.additional-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.additional-heading {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #B11226;
+}
+
+.feature-section {
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.process-section {
+    background-color: #B11226; /* Set the background color */
+    padding: 20px; /* Set the padding as needed */
+}
+
+.process-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Stack the steps vertically */
+}
+
+.process-step {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Add bottom margin to create space between steps */
+ 
+    display: flex;
+}
+
+.process-box {
+    display: flex;
+    width: 100%;
+}
+
+.process-title-box {
+    width: 30%; /* Adjust the width of the title box */
+    background-color: #f2f2f2; /* Visually separate the title box */
+    padding: 10px; /* Adjust the padding for smaller height */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+}
+
+.process-content-box {
+    flex: 1; /* Allow content box to take remaining space */
+    padding: 20px; /* Keep the same padding for the content box */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    position: absolute; /* Position the content box absolutely within the process step */
+    top: 50%; /* Move the content box to the middle of the process step */
+    left: 30%; /* Adjust the left position to create the intersecting effect */
+    transform: translate(-50%, -50%); /* Center the content box */
+    margin-top: 10px;
+}
+
+.process-title {
+    color: red; /* Set the title color */
+    font-size: 18px; /* Adjust the font size of the title */
+    margin: 0 0 10px; /* Add some bottom margin to separate the title and content */
+}
+
+.process-content {
+    /* You can style the content box separately if needed */
+    text-align: left;
+}
+
+.additional-information {
+    margin: 100px 100px 0px 0px;
+    line-height: 20px;
+}
+
+.ex {
+    width: 50%;
+    margin: 115px 100px 100px 100px;
+}
+
+.button-section {
+    text-align: center; /* Center the button within the section */
+    margin-top: 4rem; /* Add some top margin for spacing */
+    margin-bottom: 100px;
+}
+
+.adoption-button {
+    padding: 15px 30px; /* Adjust padding for button size */
+    font-size: 18px; /* Adjust font size */
+    background-color: #B11226; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    margin-bottom: 100px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.adoption-button:hover {
+    background-color: darkred; /* Darker green on hover */
+}
+
+.form-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-title {
+    color: #B11226;
+    font-size: 24px;
+}
+
+.form-container {
+    background-color: #B11226;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.form-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-title {
+    color: #B11226;
+    font-size: 24px;
+}
+
+.form-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-title {
+    color: red; /* Set the title text color */
+    font-size: 24px;
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+.form-container {
+    background-color: white; /* Set the background color for the form container */
+    padding: 20px;
+    width: 60%; /* Adjust the width of the form container */
+    margin: 0 auto; /* Center the form container */
+}
+
+.page-container {
+    background-color: red; /* Set the background color for the form container */
+    padding: 20px;
+    width: 100%; /* Adjust the width of the form container */
+    margin: 0 auto; /* Center the form container */
+}
+
+.s-f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.s-l {
+    color: white; /* Set the label text color */
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+.label-box {
+    background-color: #D3D3D3; /* Set the background color for the label boxes */
+    color: black;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 30%;
+}
+
+.s-i {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.submit-button:hover {
+    background-color: darkred;
+}
+
+.donate-section {
+    background-color: #B11226;
+    color: white;
+    padding: 2rem;
+}
+
+.donate-box {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.donate-title {
+    color: #B11226;
+    font-size: 2rem;
+}
+
+.donate-subtitle {
+    color: black;
+}
+
+.donate-image {
+    width: 60%;
+    max-width: 600px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.donate-button {
+    background-color: #B11226;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.donate-button:hover {
+    background-color: darkred;
+}
+
+.donate-line {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.donate-secure {
+    color: #B11226;
+    font-weight: bold;
+}
+
+.choose-amount-box {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.amount-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.amount-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #B11226;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.amount-button:hover {
+    background-color: darkred;
+}
+
+.continue-button {
+    background-color: #B11226;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.continue-button:hover {
+    background-color: darkred;
+}
+
+.amount-input {
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+.choose-amount-box,
+.donate-to-box {
+    display: none;
+}
+
+.donate-to-title {
+    color: red;
+    font-size: 24px;
+}
+
+.donate-to-subtitle {
+    color: black;
+    font-size: 18px;
+}
+
+.amount-shown {
+    color: black;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.vertical-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: start;
+}
+
+.vertical-button {
+    background-color: #B11226;
+    color: white;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin:0 auto;
+    margin-bottom: 10px;
+    
+    transition: background-color 0.3s; /* Added transition for smooth color change */
+    border-radius: 15px;
+}
+
+.vertical-button:hover {
+    background-color: darkred; /* Change to the desired hover color */
+}
+
+
+
